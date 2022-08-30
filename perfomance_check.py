@@ -5,7 +5,7 @@ import sys
 def install_mypackage(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
     
-install_mypackage('sentance_transformers')    
+install_mypackage('sentence_transformers')    
 from gettext import install
 import sentence_transformers
 from sentence_transformers import SentenceTransformer, util
