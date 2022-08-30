@@ -1,4 +1,4 @@
-pip install sentance_transformers
+!pip install sentance_transformers
 from gettext import install
 import sentence_transformers
 from sentence_transformers import SentenceTransformer, util
