@@ -5,7 +5,7 @@ import sys
 def install_mypackage(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
     
-install_mypackage('sentence_transformers')    
+#install_mypackage('sentence_transformers')    
  
 install_mypackage('flair')  
 from gettext import install
